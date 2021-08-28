@@ -9,13 +9,13 @@ function startTime() {
 	document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
 
 	//Dragalia Lost
-	hdl = 14 - today.getHours();
+	hdl = 13 - today.getHours();
 	mdl = 60 - today.getMinutes();
 	sdl = 60 - today.getSeconds();
 	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: " + hdl + ":" + mdl + ":" + sdl;
 
 	//Helios: Rising  Heroes & Grand Chase
-	hhgc = 23 - today.getHours();
+	hhgc = 22 - today.getHours();
 	mhgc = 60 - today.getMinutes();
 	shgc = 60 - today.getSeconds();
 	hgcstring = "Remaining Time Left: " + hhgc + ":" + mhgc + ":" + shgc;
@@ -23,7 +23,7 @@ function startTime() {
 	document.getElementById('gcleft').innerHTML = hgcstring;
 
 	//Tears of Themis
-	htot = 3 - today.getHours();
+	htot = 2 - today.getHours();
 	mtot = 60 - today.getMinutes();
 	stot = 60 - today.getSeconds();
 	document.getElementById('totleft').innerHTML = "Remaining Time Left: " + htot + ":" + mtot + ":" + stot;
