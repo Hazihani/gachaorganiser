@@ -1,5 +1,6 @@
 # Gacha Organiser
 Organize my gacha info
+
 https://hazihani.github.io/gachaorganiser/
 
 ### Games Playing
