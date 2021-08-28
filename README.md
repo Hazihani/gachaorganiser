@@ -7,7 +7,7 @@ Organize my gacha info
 3. Helios: Rising Heroes
 4. Grand Chase: Dimensional Chaser
 
-## Features (To-do)
+## Features
 - None at the moment
 
 ### To-do
