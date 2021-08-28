@@ -6,7 +6,20 @@ header {
 }
 
 .gameblock {
-    border: 5px solid red;
-    border-radius: 30px;
-    color: blue;
+	border: 5px solid red;
+	border-radius: 30px;
+	color: blue;
+}
+
+.gameblock img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: #555;
+}
+
+.gameblock h1 {
+	position: relative;
+	top: 18px;
+	left: 10px;
 }
