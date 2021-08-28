@@ -6,9 +6,9 @@ header {
 }
 
 .gameblock {
-	border: 5px solid red;
+	border: 5px solid rgb(159, 154, 163);
+	background-color: blanchedalmond;
 	border-radius: 30px;
-	color: blue;
 	padding: 1em;
 	margin: 1em;
 }
