@@ -7,13 +7,13 @@ function startTime() {
 	m = checkTime(m);
 	s = checkTime(s);
 	document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-	//document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: ";
+	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: ";
 
 	//Dragalia Lost
 	hdl = 14 - today.getHours();
 	mdl = 60 - today.getMinutes();
 	sdl = 60 - today.getSeconds();
-	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: " + hdl + ":" + mdl + ":" + sdl;
+	//document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: " + hdl + ":" + mdl + ":" + sdl;
 	setTimeout(startTime, 1000);
 }
   
