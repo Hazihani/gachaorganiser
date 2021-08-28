@@ -7,14 +7,27 @@ function startTime() {
 	m = checkTime(m);
 	s = checkTime(s);
 	document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-	//document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: ";
 
 	//Dragalia Lost
 	hdl = 14 - today.getHours();
 	mdl = 60 - today.getMinutes();
 	sdl = 60 - today.getSeconds();
 	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: " + hdl + ":" + mdl + ":" + sdl;
-	
+
+	//Helios: Rising  Heroes & Grand Chase
+	hhgc = 23 - today.getHours();
+	mhgc = 60 - today.getMinutes();
+	shgc = 60 - today.getSeconds();
+	hgcstring = "Remaining Time Left: " + hhgc + ":" + mhgc + ":" + shgc;
+	document.getElementById('heliosleft').innerHTML = hgcstring;
+	document.getElementById('gcleft').innerHTML = hgcstring;
+
+	//Tears of Themis
+	htot = 3 - today.getHours();
+	mtot = 60 - today.getMinutes();
+	stot = 60 - today.getSeconds();
+	document.getElementById('totleft').innerHTML = "Remaining Time Left: " + htot + ":" + mtot + ":" + stot;
+
 	setTimeout(startTime, 1000);
 }
   
