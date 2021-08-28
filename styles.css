@@ -6,7 +6,7 @@ header {
 }
 
 .gameblock {
-    border: 0.5em, solid, black;
+    border: 5px solid red;
     border-radius: 30px;
     color: blue;
 }
