@@ -9,16 +9,10 @@ header {
 	border: 5px solid red;
 	border-radius: 30px;
 	color: blue;
-	padding: 1em;
 }
 
 .gameblock img {
 	float: left;
 	width: 100px;
 	height: 100px;
-}
-
-.gameblock h4 {
-	top: 18px;
-	left: 10px;
 }
