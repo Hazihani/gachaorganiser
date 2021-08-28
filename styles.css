@@ -1,5 +1,5 @@
 gameblock {
     border: 0.5em, solid, black;
     border-radius: 30px;
-    text: blue;
+    color: blue;
 }
