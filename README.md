@@ -18,3 +18,6 @@ Organize my gacha info
   - Option to refresh and display every second.
   - Choose between 24-hour and 12-hour time formats.
 - Calculate inventory
+
+## External Source
+Bootstrap: https://getbootstrap.com/
