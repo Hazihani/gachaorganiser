@@ -13,12 +13,11 @@ https://hazihani.github.io/gachaorganiser/
 - None at the moment
 
 ### To-do
-- Shows game reset time and detects local time zone
+- Shows game reset time
   - Converts all game server times to your local time zone.
   - Shows the time remaining until a game server's daily reset.
   - Automatically refreshes times every minute.
   - Option to refresh and display every second.
-  - Choose between 24-hour and 12-hour time formats.
 - Calculate inventory
 
 ## External Source
