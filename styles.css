@@ -2,7 +2,6 @@ header {
 	background: #7e56c1;
 	height: 65px;
 	width: 100%;
-	position: fixed;
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.3);
 	z-index: 4;
 }
