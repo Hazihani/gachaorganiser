@@ -2,7 +2,7 @@
 Organize my gacha info
 https://hazihani.github.io/gachaorganiser/
 
-## Games playing
+### Games Playing
 1. Dragalia Lost
 2. Tears of Themis
 3. Helios: Rising Heroes
