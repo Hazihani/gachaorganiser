@@ -7,7 +7,8 @@ function startTime() {
 	m = checkTime(m);
 	s = checkTime(s);
 	document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: ";
+	//document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: ";
+	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: " + (14-h) + ":" + (60-m) + ":" + (60-s);
 	setTimeout(startTime, 1000);
 }
   
