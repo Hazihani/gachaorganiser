@@ -1,4 +1,4 @@
-# Gacha Organizer for HaziHani
+# Gacha Organiser for HaziHani
 Organize my gacha info
 
 ## Games playing
