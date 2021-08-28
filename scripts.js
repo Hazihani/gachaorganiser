@@ -8,7 +8,12 @@ function startTime() {
 	s = checkTime(s);
 	document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
 	//document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: ";
-	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: " + (14-h) + ":" + (60-m) + ":" + (60-s);
+
+	//Dragalia Lost
+	hdl = 14 - today.getHours();
+	mdl = 60 - today.getMinutes();
+	sdl = 60 - today.getSeconds();
+	document.getElementById('dragalialeft').innerHTML = "Remaining Time Left: " + hdl + ":" + mdl + ":" + sdl;
 	setTimeout(startTime, 1000);
 }
   
