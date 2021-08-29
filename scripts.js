@@ -6,7 +6,7 @@ function startTime() {
 	h = checkTime(h);
 	m = checkTime(m);
 	s = checkTime(s);
-	document.getElementById('txt').innerHTML =  "<h2>Current Time: " + h + ":" + m + ":" + s + "</h2>";
+	document.getElementById('currenttime').innerHTML =  "<h2>Current Time: " + h + ":" + m + ":" + s + "</h2>";
 
 	//Dragalia Lost
 	hdl = 13 - today.getHours();
