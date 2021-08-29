@@ -23,7 +23,7 @@ function startTime() {
 	document.getElementById('gcleft').innerHTML = hgcstring;
 
 	//Tears of Themis
-	htot = 2 - today.getHours();
+	htot = checkTime(2 - today.getHours());
 	mtot = 60 - today.getMinutes();
 	stot = 60 - today.getSeconds();
 	document.getElementById('totleft').innerHTML = "Remaining Time Left: " + htot + ":" + mtot + ":" + stot;
@@ -32,6 +32,7 @@ function startTime() {
 }
   
 function checkTime(i) {
+	if (i < 0) {i = 10 + i}; 
 	if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
 	return i;
 }
