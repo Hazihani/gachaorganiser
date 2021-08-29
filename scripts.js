@@ -28,7 +28,7 @@ function countdownTime() {
 	stot = adjustTime(60 - today.getSeconds());
 	document.getElementById('totleft').innerHTML = "Remaining Time Left: " + htot + ":" + mtot + ":" + stot;
 
-	setTimeout(startTime, 1000);
+	setTimeout(countdownTime, 1000);
 }
   
 function adjustTime(i) {
