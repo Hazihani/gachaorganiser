@@ -22,4 +22,5 @@ https://hazihani.github.io/gachaorganiser/
 
 ## External Source
 Bootstrap: https://getbootstrap.com/
+
 JQuery: https://code.jquery.com/
