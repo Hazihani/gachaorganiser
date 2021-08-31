@@ -13,12 +13,12 @@ header {
 	margin: 1em;
 }
 
-/* .gameblock img {
-	float: left;
-	width: 100px;
-	height: 100px;
+.gameblock img {
+	width: 300px;
+	height: 300px;
+	margin: auto;
 }
 
 .gameblock h4 {
 	text-align: center;
-} */
+}
