@@ -4,10 +4,10 @@ Organize my gacha info
 https://hazihani.github.io/gachaorganiser/
 
 ### Games Playing
-1. Dragalia Lost
-2. Tears of Themis
+1. Ensemble Stars!! Music
+2. Twisted Wonderland
 3. Helios: Rising Heroes
-4. Grand Chase: Dimensional Chaser
+4. Colourful Stage
 
 ## Features
 - None at the moment
