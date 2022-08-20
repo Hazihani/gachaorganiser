@@ -15,9 +15,11 @@
 	<link rel="stylesheet" href="styles.css">
 	
 </head>
-<header>
-	<div style="float: left;"><img src="favicon.ico" style="width: 64px;"/></div><h1>Gacha Organiser</h1>
-</header>
+<script> 
+	$(function(){
+		$("#includedContent").load("header.html"); 
+	});
+</script> 
 <body onload="countdownTime()">
 	<div class="container">
 		<div id="currenttime"><h2>Current Time:</h2></div>
